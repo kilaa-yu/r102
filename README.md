@@ -13,5 +13,13 @@
 - Optimiser le site Web au maximum (règle des 3 cliques/architecture).
 
 
-Pour la page du menu il nous faut :
-une dénazification
+Voici les pages que nous allons faire : 
+- Une page d'accueil
+- Une page dédiée à l'entrée
+- Dédiée au plat principal
+- Dédiée au desert
+
+Mis à part la page d'accueil, les autres pages seront constituées de : 
+- Une présentation du plat (ses origines, apparitions, popularité, etc)
+- Des images d'illustrations
+- Un recette sur comment faire le plat 
