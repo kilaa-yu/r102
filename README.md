@@ -12,12 +12,12 @@
 - Validation W3C en HTML et CSS de toutes les pages Webs.
 - Optimiser le site Web au maximum (règle des 3 cliques/architecture).
 
-
 Voici les pages que nous allons faire : 
-- Une page d'accueil
-- Une page dédiée à l'entrée
-- Dédiée au plat principal
-- Dédiée au desert
+- Une page d'accueil.
+- Une page dédiée à l'entrée.
+- Une page dédiée au plat principal.
+- Une page dédiée au desert.
+- Une page d'avis contenant le formulaire.
 
 Mis à part la page d'accueil, les autres pages seront constituées de : 
 - Une présentation du plat (ses origines, apparitions, popularité, etc)
