@@ -25,7 +25,7 @@ Mis à part la page d'accueil, les autres pages seront constituées de :
 - Un recette sur comment faire le plat 
 
 Il faut :
-- Une page d'acceuille
+- Une page d'acceuil
 - Une page de contact
 - Trois pages de plats
 
