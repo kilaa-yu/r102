@@ -23,3 +23,8 @@ Mis à part la page d'accueil, les autres pages seront constituées de :
 - Une présentation du plat (ses origines, apparitions, popularité, etc)
 - Des images d'illustrations
 - Un recette sur comment faire le plat 
+
+Il faut :
+- Une page d'acceuille
+- Une page de contact
+- Trois pages de plats
