@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
   }
+
+  /* Barre de navigation */
   
   header {
     display: flex;
@@ -16,7 +18,7 @@
     margin-right: auto;
   }
 
-  /* Resize images */
+  /* Changer la taille du logo */
 .logo img {
   width: 50%;
   height: auto;
@@ -48,6 +50,8 @@
   .nav__links li a:hover {
     color: #a80000;
   }
+
+  /* Bouton Formulaire (Call-to-Action) */
   
   .cta {
     margin-left: 20px;
@@ -63,76 +67,7 @@
     background-color: rgb(168, 0, 0, 0.8);
   }
   
-  /* Navigation Mobile */
   
-  .menu {
-    display: none;
-  }
-  
-  .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    background-color: #24252a;
-    overflow-x: hidden;
-    transition: all 0.5s ease 0s;
-  }
-  
-  .overlay--active {
-    width: 100%;
-  }
-  
-  .overlay__content {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .overlay a {
-    padding: 15px;
-    font-size: 36px;
-    display: block;
-    transition: all 0.3s ease 0s;
-  }
-  
-  .overlay a:hover,
-  .overlay a:focus {
-    color: #a80000;
-  }
-  .overlay .close {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-    color: #edf0f1;
-    cursor: pointer;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .overlay a {
-      font-size: 20px;
-    }
-    .overlay .close {
-      font-size: 40px;
-      top: 15px;
-      right: 35px;
-    }
-  }
-  
-  @media only screen and (max-width: 800px) {
-    .nav__links,
-    .cta {
-      display: none;
-    }
-    .menu {
-      display: initial;
-    }
-  }
 
   body {
     font-family: 'Lora', 'Times New Roman', serif;
@@ -156,6 +91,7 @@
   h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 800;
+    padding-top: 6%;
   }
   
   a {
@@ -171,6 +107,8 @@
     cursor: zoom-in;
   }
 
+    /* Class main pour avoir le texte centré et laisser les bords vides*/
+
   .maintest {
     padding-top: 0;
     padding-right: 25%;
@@ -179,9 +117,66 @@
     flex: 0 0 auto;
   }
 
+  /* Images */
+
   .fit-picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+  }
+
+    /* Formulaire */
+
+  .form {
+    width:440px;
+    height:580px;
+    background:#f8f3f3;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 350px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;font-family:'Montserrat',sans-serif;
+    position:relative;
+  }
+
+  .h2-form {
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    color:#811212;
+    border-bottom:3px solid #811212;
+  }
+
+  input {
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;border:0;
+    font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #811212;
+  }
+  input:focus {
+    border-bottom:2px solid #811212;
+  }
+
+  p:before {
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#5a5a5a;
+  }
+
+  button {
+    float:right;padding:8px 12px;margin:8px 0 0;font-family:'Montserrat',sans-serif;
+    border:2px solid #811212;background:0;
+    color:#811212;cursor:pointer;transition:all .3s;
+  }
+
+  button:hover {
+    background:#811212;
+    color:#fff;
   }
