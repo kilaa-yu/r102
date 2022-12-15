@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8">
   <title>Index</title>
   <meta name="author" content="Rayan PIOCT et Yuuki SALA-MOCHIZUKI">
   <meta name="description"
     content="Cette page représente la page Index de notre site internet. Celle-ci nous permet de présenter rapidement notre contenu et de naviguer facilement aux autres pages.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="icone.ico" type="image/png">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
+
 <body>
   <header>
-    <a class="logo" href="/"><img src="../images/logo2.png" alt="logo"></a>
+    <a class="logo" href="/"><img src="images/logo2.png" alt="logo"></a>
     <nav>
       <ul class="nav__links">
         <li><a href="html/aperitif.html">Apéritif</a></li>
@@ -21,8 +25,21 @@
       </ul>
     </nav>
     <a class="cta" href="html/formulaire.html">Nous contacter</a>
+    <p class="menu cta">Menu</p>
+    <section id="mobile__menu" class="overlay">
+      <a class="close">&times;</a>
+      <nav class="overlay__content">
+        <a href="html/aperitif.html">Apéritif</a>
+        <a href="html/entree.html">Entrée</a>
+        <a href="html/principal.html">Plat</a>
+        <a href="html/dessert.html">Dessert</a>
+        <a href="html/formulaire.html">Nous contacter</a>
+      </nav>
+    </section>
+    <script type="text/javascript" src="../javascript/mobile.js"></script>
   </header>
-  <main class="maintest">
+
+  <main class="main_1">
     <h1> Bienvenue sur notre page Web ! </h1>
     <h2> Qui sommes-nous ? </h2>
     <p> Nous sommes deux <strong> étudiants </strong> issus de l'<a href="https://iut.univ-amu.fr/fr">I.U.T
@@ -37,4 +54,8 @@
       pages de manière hebdomadaire afin de rafraichir notre contenu.</p>
   </main>
 </body>
+<footer>
+  <p> Site réalisé par Yûki SALA-MOCHIZUKI et Rayan PIOCT. Ce site est non officiel, fait pour l'apprentissage.</p>
+</footer>
+
 </html>
