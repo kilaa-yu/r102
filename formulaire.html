@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Formulaire</title>
+  <meta name="author" content="Rayan PIOCT et Yuuki SALA-MOCHIZUKI">
+  <meta name="description" content="Descriptif de la page">
+  <link rel="icon" href="icone.ico" type="image/png">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <a class="logo" href="/"><img src="../images/logo2.png" alt="logo"></a>
+    <nav>
+      <ul class="nav__links">
+        <li><a href="aperitif.html">Apéritif</a></li>
+        <li><a href="entree.html">Entrée</a></li>
+        <li><a href="principal.html">Plat</a></li>
+        <li><a href="dessert.html">Dessert</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="formulaire.html">Nous contacter</a>
+  </header>
+  <main class="maintest">
+    <p>
+    </p>
+    <form id="form" action="mailto:my@e-mail?content-type=text/html&amp;subject=Site%20Web" method="post"
+      enctype="text/plain">
+      <p>
+        <label for="prenom">Prénom</label><input id="prenom" type="text" name="prenom" placeholder="votre prenom."><br>
+        <label for="nom">Nom</label><input id="nom" type="text" name="nom" placeholder="votre nom."><br>
+        <label for="email">Email</label><input id="email" type="text" name="email"
+          placeholder="nom.prenom@exemple.com"><br>
+        <label for="téléphone">Téléphone </label><input id="téléphone" type="text" name="téléphone"
+          placeholder="+33 06 58 71 22 34"><br>
+        Genre :<br />
+        <input id="sexeHomme" type="radio" name="sexe" value="homme"><label for="sexeHomme">Homme</label>
+        <input id="sexeFemme" type="radio" name="sexe" value="femme"><label for="sexeFemme">Femme</label><br>
+        <textarea name="impression" rows="5" cols="50"></textarea><br>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler" />
+      </p>
+    </form>
+  </main>
+</body>
+
+</html>
